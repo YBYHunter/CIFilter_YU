@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874E2B61C0E90F5008268E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2B51C0E90F5008268E0 /* main.m */; };
+		1874E2B91C0E90F5008268E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2B81C0E90F5008268E0 /* AppDelegate.m */; };
+		1874E2BC1C0E90F5008268E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2BB1C0E90F5008268E0 /* ViewController.m */; };
+		1874E2BF1C0E90F5008268E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2BD1C0E90F5008268E0 /* Main.storyboard */; };
+		1874E2C11C0E90F5008268E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2C01C0E90F5008268E0 /* Assets.xcassets */; };
+		1874E2C41C0E90F5008268E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2C21C0E90F5008268E0 /* LaunchScreen.storyboard */; };
+		1874E2CF1C0E90F6008268E0 /* lvjingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2CE1C0E90F6008268E0 /* lvjingTests.m */; };
+		1874E2DA1C0E90F6008268E0 /* lvjingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2D91C0E90F6008268E0 /* lvjingUITests.m */; };
+		1874E2ED1C0E9C59008268E0 /* CIColorClampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2EB1C0E9C59008268E0 /* CIColorClampViewController.m */; };
+		1874E2EE1C0E9C59008268E0 /* CIColorClampViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2EC1C0E9C59008268E0 /* CIColorClampViewController.xib */; };
+		1874E2F01C0E9F6C008268E0 /* xxxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2EF1C0E9F6C008268E0 /* xxxx.jpg */; };
+		1874E2F41C0EA845008268E0 /* CIColorControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2F21C0EA845008268E0 /* CIColorControlsViewController.m */; };
+		1874E2F51C0EA845008268E0 /* CIColorControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2F31C0EA845008268E0 /* CIColorControlsViewController.xib */; };
+		1874E2FE1C0FDC90008268E0 /* CIEXposureAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E2FC1C0FDC90008268E0 /* CIEXposureAdjustViewController.m */; };
+		1874E2FF1C0FDC90008268E0 /* CIEXposureAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E2FD1C0FDC90008268E0 /* CIEXposureAdjustViewController.xib */; };
+		1874E3031C0FE20C008268E0 /* CIGamaAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3011C0FE20C008268E0 /* CIGamaAdjustViewController.m */; };
+		1874E3041C0FE20C008268E0 /* CIGamaAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3021C0FE20C008268E0 /* CIGamaAdjustViewController.xib */; };
+		1874E3081C0FE401008268E0 /* CIHueAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3061C0FE401008268E0 /* CIHueAdjustViewController.m */; };
+		1874E3091C0FE401008268E0 /* CIHueAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3071C0FE401008268E0 /* CIHueAdjustViewController.xib */; };
+		1874E30D1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E30B1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.m */; };
+		1874E30E1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E30C1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.xib */; };
+		1874E3121C0FEDC2008268E0 /* CITemperatureAndTintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3101C0FEDC2008268E0 /* CITemperatureAndTintViewController.m */; };
+		1874E3131C0FEDC2008268E0 /* CITemperatureAndTintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3111C0FEDC2008268E0 /* CITemperatureAndTintViewController.xib */; };
+		1874E3171C0FF53D008268E0 /* CIToneCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3151C0FF53C008268E0 /* CIToneCurveViewController.m */; };
+		1874E3181C0FF53D008268E0 /* CIToneCurveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3161C0FF53D008268E0 /* CIToneCurveViewController.xib */; };
+		1874E31C1C0FF615008268E0 /* CIVibranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E31A1C0FF615008268E0 /* CIVibranceViewController.m */; };
+		1874E31D1C0FF615008268E0 /* CIVibranceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E31B1C0FF615008268E0 /* CIVibranceViewController.xib */; };
+		1874E3211C0FF7DA008268E0 /* CIWhitePointAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E31F1C0FF7DA008268E0 /* CIWhitePointAdjustViewController.m */; };
+		1874E3221C0FF7DA008268E0 /* CIWhitePointAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3201C0FF7DA008268E0 /* CIWhitePointAdjustViewController.xib */; };
+		1874E3261C100D90008268E0 /* CIColorPolynomialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3241C100D90008268E0 /* CIColorPolynomialViewController.m */; };
+		1874E3271C100D90008268E0 /* CIColorPolynomialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3251C100D90008268E0 /* CIColorPolynomialViewController.xib */; };
+		1874E32B1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3291C100E25008268E0 /* CISRGBToneCurveToLinentViewController.m */; };
+		1874E32C1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E32A1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.xib */; };
+		1874E3301C1011D7008268E0 /* CIColorMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E32E1C1011D7008268E0 /* CIColorMatrixViewController.m */; };
+		1874E3311C1011D7008268E0 /* CIColorMatrixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E32F1C1011D7008268E0 /* CIColorMatrixViewController.xib */; };
+		1874E3361C101DAB008268E0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3341C101DAB008268E0 /* BaseViewController.m */; };
+		1874E33A1C1023D9008268E0 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3391C1023D9008268E0 /* ViewController2.m */; };
+		1874E33F1C102910008268E0 /* CIColorCrossPolynomialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E33D1C102910008268E0 /* CIColorCrossPolynomialViewController.m */; };
+		1874E3401C102910008268E0 /* CIColorCrossPolynomialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E33E1C102910008268E0 /* CIColorCrossPolynomialViewController.xib */; };
+		1874E3441C102922008268E0 /* CIColorCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3421C102922008268E0 /* CIColorCubeViewController.m */; };
+		1874E3451C102922008268E0 /* CIColorCubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3431C102922008268E0 /* CIColorCubeViewController.xib */; };
+		1874E3491C102933008268E0 /* CIColorCubeWithColorSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3471C102933008268E0 /* CIColorCubeWithColorSpaceViewController.m */; };
+		1874E34A1C102933008268E0 /* CIColorCubeWithColorSpaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3481C102933008268E0 /* CIColorCubeWithColorSpaceViewController.xib */; };
+		1874E34E1C102942008268E0 /* CIColorInvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E34C1C102942008268E0 /* CIColorInvertViewController.m */; };
+		1874E34F1C102942008268E0 /* CIColorInvertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E34D1C102942008268E0 /* CIColorInvertViewController.xib */; };
+		1874E3531C102951008268E0 /* CIColorMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3511C102951008268E0 /* CIColorMapViewController.m */; };
+		1874E3541C102951008268E0 /* CIColorMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3521C102951008268E0 /* CIColorMapViewController.xib */; };
+		1874E3581C102960008268E0 /* CIColorMonochromeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3561C102960008268E0 /* CIColorMonochromeViewController.m */; };
+		1874E3591C102960008268E0 /* CIColorMonochromeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3571C102960008268E0 /* CIColorMonochromeViewController.xib */; };
+		1874E35D1C102970008268E0 /* CIColorPosterizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E35B1C102970008268E0 /* CIColorPosterizeViewController.m */; };
+		1874E35E1C102970008268E0 /* CIColorPosterizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E35C1C102970008268E0 /* CIColorPosterizeViewController.xib */; };
+		1874E3621C102981008268E0 /* CIFalseColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3601C102981008268E0 /* CIFalseColorViewController.m */; };
+		1874E3631C102981008268E0 /* CIFalseColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3611C102981008268E0 /* CIFalseColorViewController.xib */; };
+		1874E3671C10298F008268E0 /* CIMaskToAlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3651C10298F008268E0 /* CIMaskToAlphaViewController.m */; };
+		1874E3681C10298F008268E0 /* CIMaskToAlphaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3661C10298F008268E0 /* CIMaskToAlphaViewController.xib */; };
+		1874E36C1C1029A0008268E0 /* CIMaximumComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E36A1C1029A0008268E0 /* CIMaximumComponentViewController.m */; };
+		1874E36D1C1029A0008268E0 /* CIMaximumComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E36B1C1029A0008268E0 /* CIMaximumComponentViewController.xib */; };
+		1874E3711C1029B0008268E0 /* CIMinimumComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E36F1C1029B0008268E0 /* CIMinimumComponentViewController.m */; };
+		1874E3721C1029B0008268E0 /* CIMinimumComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3701C1029B0008268E0 /* CIMinimumComponentViewController.xib */; };
+		1874E3761C1029BF008268E0 /* CIPhotoEffectChromeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3741C1029BF008268E0 /* CIPhotoEffectChromeViewController.m */; };
+		1874E3771C1029BF008268E0 /* CIPhotoEffectChromeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3751C1029BF008268E0 /* CIPhotoEffectChromeViewController.xib */; };
+		1874E37B1C1029D3008268E0 /* CIPhotoEffectFadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3791C1029D3008268E0 /* CIPhotoEffectFadeViewController.m */; };
+		1874E37C1C1029D3008268E0 /* CIPhotoEffectFadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E37A1C1029D3008268E0 /* CIPhotoEffectFadeViewController.xib */; };
+		1874E3801C1029E7008268E0 /* CIPhotoEffectInstantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E37E1C1029E7008268E0 /* CIPhotoEffectInstantViewController.m */; };
+		1874E3811C1029E7008268E0 /* CIPhotoEffectInstantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E37F1C1029E7008268E0 /* CIPhotoEffectInstantViewController.xib */; };
+		1874E3851C1029F7008268E0 /* CIPhotoEffectMonoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3831C1029F7008268E0 /* CIPhotoEffectMonoViewController.m */; };
+		1874E3861C1029F7008268E0 /* CIPhotoEffectMonoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3841C1029F7008268E0 /* CIPhotoEffectMonoViewController.xib */; };
+		1874E38A1C102A08008268E0 /* CIPhotoEffectNoirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3881C102A08008268E0 /* CIPhotoEffectNoirViewController.m */; };
+		1874E38B1C102A08008268E0 /* CIPhotoEffectNoirViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3891C102A08008268E0 /* CIPhotoEffectNoirViewController.xib */; };
+		1874E38F1C102A19008268E0 /* CIPhotoEffectProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E38D1C102A19008268E0 /* CIPhotoEffectProcessViewController.m */; };
+		1874E3901C102A19008268E0 /* CIPhotoEffectProcessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E38E1C102A19008268E0 /* CIPhotoEffectProcessViewController.xib */; };
+		1874E3941C102A2A008268E0 /* CIPhotoEffectTonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3921C102A2A008268E0 /* CIPhotoEffectTonalViewController.m */; };
+		1874E3951C102A2A008268E0 /* CIPhotoEffectTonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3931C102A2A008268E0 /* CIPhotoEffectTonalViewController.xib */; };
+		1874E3991C102A3C008268E0 /* CIPhotoEffectTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3971C102A3C008268E0 /* CIPhotoEffectTransferViewController.m */; };
+		1874E39A1C102A3C008268E0 /* CIPhotoEffectTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3981C102A3C008268E0 /* CIPhotoEffectTransferViewController.xib */; };
+		1874E39E1C102A4D008268E0 /* CISepiaToneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E39C1C102A4D008268E0 /* CISepiaToneViewController.m */; };
+		1874E39F1C102A4D008268E0 /* CISepiaToneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E39D1C102A4D008268E0 /* CISepiaToneViewController.xib */; };
+		1874E3A31C102A5D008268E0 /* CIVignetteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3A11C102A5D008268E0 /* CIVignetteViewController.m */; };
+		1874E3A41C102A5D008268E0 /* CIVignetteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3A21C102A5D008268E0 /* CIVignetteViewController.xib */; };
+		1874E3A81C102A71008268E0 /* CIVignetteEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3A61C102A71008268E0 /* CIVignetteEffectViewController.m */; };
+		1874E3A91C102A71008268E0 /* CIVignetteEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3A71C102A71008268E0 /* CIVignetteEffectViewController.xib */; };
+		1877D5AB1C183AF2008AA60B /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877D5AA1C183AF2008AA60B /* BViewController.m */; };
+		1877D5AF1C183CE4008AA60B /* WsliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877D5AE1C183CE4008AA60B /* WsliderView.m */; };
+		18FC4AE51C1EBB6200CB0728 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FC4AE41C1EBB6200CB0728 /* dog.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1874E2CB1C0E90F6008268E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1874E2A91C0E90F5008268E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1874E2B01C0E90F5008268E0;
+			remoteInfo = lvjing;
+		};
+		1874E2D61C0E90F6008268E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1874E2A91C0E90F5008268E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1874E2B01C0E90F5008268E0;
+			remoteInfo = lvjing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1874E2B11C0E90F5008268E0 /* lvjing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lvjing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E2B51C0E90F5008268E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1874E2B71C0E90F5008268E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1874E2B81C0E90F5008268E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1874E2BA1C0E90F5008268E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1874E2BB1C0E90F5008268E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1874E2BE1C0E90F5008268E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1874E2C01C0E90F5008268E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1874E2C31C0E90F5008268E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1874E2C51C0E90F5008268E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874E2CA1C0E90F6008268E0 /* lvjingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lvjingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E2CE1C0E90F6008268E0 /* lvjingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lvjingTests.m; sourceTree = "<group>"; };
+		1874E2D01C0E90F6008268E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874E2D51C0E90F6008268E0 /* lvjingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lvjingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E2D91C0E90F6008268E0 /* lvjingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lvjingUITests.m; sourceTree = "<group>"; };
+		1874E2DB1C0E90F6008268E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874E2EA1C0E9C59008268E0 /* CIColorClampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorClampViewController.h; sourceTree = "<group>"; };
+		1874E2EB1C0E9C59008268E0 /* CIColorClampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorClampViewController.m; sourceTree = "<group>"; };
+		1874E2EC1C0E9C59008268E0 /* CIColorClampViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorClampViewController.xib; sourceTree = "<group>"; };
+		1874E2EF1C0E9F6C008268E0 /* xxxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xxxx.jpg; path = lvjing/xxxx.jpg; sourceTree = "<group>"; };
+		1874E2F11C0EA845008268E0 /* CIColorControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorControlsViewController.h; sourceTree = "<group>"; };
+		1874E2F21C0EA845008268E0 /* CIColorControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorControlsViewController.m; sourceTree = "<group>"; };
+		1874E2F31C0EA845008268E0 /* CIColorControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorControlsViewController.xib; sourceTree = "<group>"; };
+		1874E2FB1C0FDC90008268E0 /* CIEXposureAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEXposureAdjustViewController.h; sourceTree = "<group>"; };
+		1874E2FC1C0FDC90008268E0 /* CIEXposureAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEXposureAdjustViewController.m; sourceTree = "<group>"; };
+		1874E2FD1C0FDC90008268E0 /* CIEXposureAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIEXposureAdjustViewController.xib; sourceTree = "<group>"; };
+		1874E3001C0FE20C008268E0 /* CIGamaAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIGamaAdjustViewController.h; sourceTree = "<group>"; };
+		1874E3011C0FE20C008268E0 /* CIGamaAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIGamaAdjustViewController.m; sourceTree = "<group>"; };
+		1874E3021C0FE20C008268E0 /* CIGamaAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIGamaAdjustViewController.xib; sourceTree = "<group>"; };
+		1874E3051C0FE401008268E0 /* CIHueAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIHueAdjustViewController.h; sourceTree = "<group>"; };
+		1874E3061C0FE401008268E0 /* CIHueAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIHueAdjustViewController.m; sourceTree = "<group>"; };
+		1874E3071C0FE401008268E0 /* CIHueAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIHueAdjustViewController.xib; sourceTree = "<group>"; };
+		1874E30A1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CILinearToSRGBToneCurveViewController.h; sourceTree = "<group>"; };
+		1874E30B1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CILinearToSRGBToneCurveViewController.m; sourceTree = "<group>"; };
+		1874E30C1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CILinearToSRGBToneCurveViewController.xib; sourceTree = "<group>"; };
+		1874E30F1C0FEDC2008268E0 /* CITemperatureAndTintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITemperatureAndTintViewController.h; sourceTree = "<group>"; };
+		1874E3101C0FEDC2008268E0 /* CITemperatureAndTintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITemperatureAndTintViewController.m; sourceTree = "<group>"; };
+		1874E3111C0FEDC2008268E0 /* CITemperatureAndTintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CITemperatureAndTintViewController.xib; sourceTree = "<group>"; };
+		1874E3141C0FF53C008268E0 /* CIToneCurveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIToneCurveViewController.h; sourceTree = "<group>"; };
+		1874E3151C0FF53C008268E0 /* CIToneCurveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIToneCurveViewController.m; sourceTree = "<group>"; };
+		1874E3161C0FF53D008268E0 /* CIToneCurveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIToneCurveViewController.xib; sourceTree = "<group>"; };
+		1874E3191C0FF615008268E0 /* CIVibranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIVibranceViewController.h; sourceTree = "<group>"; };
+		1874E31A1C0FF615008268E0 /* CIVibranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIVibranceViewController.m; sourceTree = "<group>"; };
+		1874E31B1C0FF615008268E0 /* CIVibranceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIVibranceViewController.xib; sourceTree = "<group>"; };
+		1874E31E1C0FF7DA008268E0 /* CIWhitePointAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIWhitePointAdjustViewController.h; sourceTree = "<group>"; };
+		1874E31F1C0FF7DA008268E0 /* CIWhitePointAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIWhitePointAdjustViewController.m; sourceTree = "<group>"; };
+		1874E3201C0FF7DA008268E0 /* CIWhitePointAdjustViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIWhitePointAdjustViewController.xib; sourceTree = "<group>"; };
+		1874E3231C100D90008268E0 /* CIColorPolynomialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorPolynomialViewController.h; sourceTree = "<group>"; };
+		1874E3241C100D90008268E0 /* CIColorPolynomialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorPolynomialViewController.m; sourceTree = "<group>"; };
+		1874E3251C100D90008268E0 /* CIColorPolynomialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorPolynomialViewController.xib; sourceTree = "<group>"; };
+		1874E3281C100E25008268E0 /* CISRGBToneCurveToLinentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISRGBToneCurveToLinentViewController.h; sourceTree = "<group>"; };
+		1874E3291C100E25008268E0 /* CISRGBToneCurveToLinentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISRGBToneCurveToLinentViewController.m; sourceTree = "<group>"; };
+		1874E32A1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CISRGBToneCurveToLinentViewController.xib; sourceTree = "<group>"; };
+		1874E32D1C1011D7008268E0 /* CIColorMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorMatrixViewController.h; sourceTree = "<group>"; };
+		1874E32E1C1011D7008268E0 /* CIColorMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorMatrixViewController.m; sourceTree = "<group>"; };
+		1874E32F1C1011D7008268E0 /* CIColorMatrixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorMatrixViewController.xib; sourceTree = "<group>"; };
+		1874E3331C101DAB008268E0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1874E3341C101DAB008268E0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1874E3381C1023D9008268E0 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		1874E3391C1023D9008268E0 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		1874E33C1C102910008268E0 /* CIColorCrossPolynomialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorCrossPolynomialViewController.h; sourceTree = "<group>"; };
+		1874E33D1C102910008268E0 /* CIColorCrossPolynomialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorCrossPolynomialViewController.m; sourceTree = "<group>"; };
+		1874E33E1C102910008268E0 /* CIColorCrossPolynomialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorCrossPolynomialViewController.xib; sourceTree = "<group>"; };
+		1874E3411C102922008268E0 /* CIColorCubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorCubeViewController.h; sourceTree = "<group>"; };
+		1874E3421C102922008268E0 /* CIColorCubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorCubeViewController.m; sourceTree = "<group>"; };
+		1874E3431C102922008268E0 /* CIColorCubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorCubeViewController.xib; sourceTree = "<group>"; };
+		1874E3461C102933008268E0 /* CIColorCubeWithColorSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorCubeWithColorSpaceViewController.h; sourceTree = "<group>"; };
+		1874E3471C102933008268E0 /* CIColorCubeWithColorSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorCubeWithColorSpaceViewController.m; sourceTree = "<group>"; };
+		1874E3481C102933008268E0 /* CIColorCubeWithColorSpaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorCubeWithColorSpaceViewController.xib; sourceTree = "<group>"; };
+		1874E34B1C102942008268E0 /* CIColorInvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorInvertViewController.h; sourceTree = "<group>"; };
+		1874E34C1C102942008268E0 /* CIColorInvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorInvertViewController.m; sourceTree = "<group>"; };
+		1874E34D1C102942008268E0 /* CIColorInvertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorInvertViewController.xib; sourceTree = "<group>"; };
+		1874E3501C102951008268E0 /* CIColorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorMapViewController.h; sourceTree = "<group>"; };
+		1874E3511C102951008268E0 /* CIColorMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorMapViewController.m; sourceTree = "<group>"; };
+		1874E3521C102951008268E0 /* CIColorMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorMapViewController.xib; sourceTree = "<group>"; };
+		1874E3551C102960008268E0 /* CIColorMonochromeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorMonochromeViewController.h; sourceTree = "<group>"; };
+		1874E3561C102960008268E0 /* CIColorMonochromeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorMonochromeViewController.m; sourceTree = "<group>"; };
+		1874E3571C102960008268E0 /* CIColorMonochromeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorMonochromeViewController.xib; sourceTree = "<group>"; };
+		1874E35A1C102970008268E0 /* CIColorPosterizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIColorPosterizeViewController.h; sourceTree = "<group>"; };
+		1874E35B1C102970008268E0 /* CIColorPosterizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIColorPosterizeViewController.m; sourceTree = "<group>"; };
+		1874E35C1C102970008268E0 /* CIColorPosterizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIColorPosterizeViewController.xib; sourceTree = "<group>"; };
+		1874E35F1C102981008268E0 /* CIFalseColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIFalseColorViewController.h; sourceTree = "<group>"; };
+		1874E3601C102981008268E0 /* CIFalseColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIFalseColorViewController.m; sourceTree = "<group>"; };
+		1874E3611C102981008268E0 /* CIFalseColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIFalseColorViewController.xib; sourceTree = "<group>"; };
+		1874E3641C10298F008268E0 /* CIMaskToAlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIMaskToAlphaViewController.h; sourceTree = "<group>"; };
+		1874E3651C10298F008268E0 /* CIMaskToAlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIMaskToAlphaViewController.m; sourceTree = "<group>"; };
+		1874E3661C10298F008268E0 /* CIMaskToAlphaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIMaskToAlphaViewController.xib; sourceTree = "<group>"; };
+		1874E3691C1029A0008268E0 /* CIMaximumComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIMaximumComponentViewController.h; sourceTree = "<group>"; };
+		1874E36A1C1029A0008268E0 /* CIMaximumComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIMaximumComponentViewController.m; sourceTree = "<group>"; };
+		1874E36B1C1029A0008268E0 /* CIMaximumComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIMaximumComponentViewController.xib; sourceTree = "<group>"; };
+		1874E36E1C1029B0008268E0 /* CIMinimumComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIMinimumComponentViewController.h; sourceTree = "<group>"; };
+		1874E36F1C1029B0008268E0 /* CIMinimumComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIMinimumComponentViewController.m; sourceTree = "<group>"; };
+		1874E3701C1029B0008268E0 /* CIMinimumComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIMinimumComponentViewController.xib; sourceTree = "<group>"; };
+		1874E3731C1029BF008268E0 /* CIPhotoEffectChromeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectChromeViewController.h; sourceTree = "<group>"; };
+		1874E3741C1029BF008268E0 /* CIPhotoEffectChromeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectChromeViewController.m; sourceTree = "<group>"; };
+		1874E3751C1029BF008268E0 /* CIPhotoEffectChromeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectChromeViewController.xib; sourceTree = "<group>"; };
+		1874E3781C1029D3008268E0 /* CIPhotoEffectFadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectFadeViewController.h; sourceTree = "<group>"; };
+		1874E3791C1029D3008268E0 /* CIPhotoEffectFadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectFadeViewController.m; sourceTree = "<group>"; };
+		1874E37A1C1029D3008268E0 /* CIPhotoEffectFadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectFadeViewController.xib; sourceTree = "<group>"; };
+		1874E37D1C1029E7008268E0 /* CIPhotoEffectInstantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectInstantViewController.h; sourceTree = "<group>"; };
+		1874E37E1C1029E7008268E0 /* CIPhotoEffectInstantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectInstantViewController.m; sourceTree = "<group>"; };
+		1874E37F1C1029E7008268E0 /* CIPhotoEffectInstantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectInstantViewController.xib; sourceTree = "<group>"; };
+		1874E3821C1029F7008268E0 /* CIPhotoEffectMonoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectMonoViewController.h; sourceTree = "<group>"; };
+		1874E3831C1029F7008268E0 /* CIPhotoEffectMonoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectMonoViewController.m; sourceTree = "<group>"; };
+		1874E3841C1029F7008268E0 /* CIPhotoEffectMonoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectMonoViewController.xib; sourceTree = "<group>"; };
+		1874E3871C102A08008268E0 /* CIPhotoEffectNoirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectNoirViewController.h; sourceTree = "<group>"; };
+		1874E3881C102A08008268E0 /* CIPhotoEffectNoirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectNoirViewController.m; sourceTree = "<group>"; };
+		1874E3891C102A08008268E0 /* CIPhotoEffectNoirViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectNoirViewController.xib; sourceTree = "<group>"; };
+		1874E38C1C102A19008268E0 /* CIPhotoEffectProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectProcessViewController.h; sourceTree = "<group>"; };
+		1874E38D1C102A19008268E0 /* CIPhotoEffectProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectProcessViewController.m; sourceTree = "<group>"; };
+		1874E38E1C102A19008268E0 /* CIPhotoEffectProcessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectProcessViewController.xib; sourceTree = "<group>"; };
+		1874E3911C102A2A008268E0 /* CIPhotoEffectTonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectTonalViewController.h; sourceTree = "<group>"; };
+		1874E3921C102A2A008268E0 /* CIPhotoEffectTonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectTonalViewController.m; sourceTree = "<group>"; };
+		1874E3931C102A2A008268E0 /* CIPhotoEffectTonalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectTonalViewController.xib; sourceTree = "<group>"; };
+		1874E3961C102A3C008268E0 /* CIPhotoEffectTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPhotoEffectTransferViewController.h; sourceTree = "<group>"; };
+		1874E3971C102A3C008268E0 /* CIPhotoEffectTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPhotoEffectTransferViewController.m; sourceTree = "<group>"; };
+		1874E3981C102A3C008268E0 /* CIPhotoEffectTransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIPhotoEffectTransferViewController.xib; sourceTree = "<group>"; };
+		1874E39B1C102A4D008268E0 /* CISepiaToneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISepiaToneViewController.h; sourceTree = "<group>"; };
+		1874E39C1C102A4D008268E0 /* CISepiaToneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISepiaToneViewController.m; sourceTree = "<group>"; };
+		1874E39D1C102A4D008268E0 /* CISepiaToneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CISepiaToneViewController.xib; sourceTree = "<group>"; };
+		1874E3A01C102A5D008268E0 /* CIVignetteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIVignetteViewController.h; sourceTree = "<group>"; };
+		1874E3A11C102A5D008268E0 /* CIVignetteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIVignetteViewController.m; sourceTree = "<group>"; };
+		1874E3A21C102A5D008268E0 /* CIVignetteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIVignetteViewController.xib; sourceTree = "<group>"; };
+		1874E3A51C102A71008268E0 /* CIVignetteEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIVignetteEffectViewController.h; sourceTree = "<group>"; };
+		1874E3A61C102A71008268E0 /* CIVignetteEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIVignetteEffectViewController.m; sourceTree = "<group>"; };
+		1874E3A71C102A71008268E0 /* CIVignetteEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIVignetteEffectViewController.xib; sourceTree = "<group>"; };
+		1877D5A91C183AF2008AA60B /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		1877D5AA1C183AF2008AA60B /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		1877D5AD1C183CE4008AA60B /* WsliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WsliderView.h; sourceTree = "<group>"; };
+		1877D5AE1C183CE4008AA60B /* WsliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WsliderView.m; sourceTree = "<group>"; };
+		1881E31B1C1FAF0F008F52D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18FC4AE41C1EBB6200CB0728 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874E2AE1C0E90F5008268E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2C71C0E90F6008268E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2D21C0E90F6008268E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874E2A81C0E90F5008268E0 = {
+			isa = PBXGroup;
+			children = (
+				18FC4AE41C1EBB6200CB0728 /* dog.jpg */,
+				1874E2EF1C0E9F6C008268E0 /* xxxx.jpg */,
+				1874E2B31C0E90F5008268E0 /* lvjing */,
+				1874E2CD1C0E90F6008268E0 /* lvjingTests */,
+				1874E2D81C0E90F6008268E0 /* lvjingUITests */,
+				1874E2B21C0E90F5008268E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1874E2B21C0E90F5008268E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874E2B11C0E90F5008268E0 /* lvjing.app */,
+				1874E2CA1C0E90F6008268E0 /* lvjingTests.xctest */,
+				1874E2D51C0E90F6008268E0 /* lvjingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874E2B31C0E90F5008268E0 /* lvjing */ = {
+			isa = PBXGroup;
+			children = (
+				1877D5AC1C183CB7008AA60B /* View */,
+				1874E2B71C0E90F5008268E0 /* AppDelegate.h */,
+				1874E2B81C0E90F5008268E0 /* AppDelegate.m */,
+				1874E3331C101DAB008268E0 /* BaseViewController.h */,
+				1874E3341C101DAB008268E0 /* BaseViewController.m */,
+				1874E33B1C1028A2008268E0 /* CICategoryColorEffect */,
+				1874E3321C101D0D008268E0 /* CICategaryColorAdjustment */,
+				1874E2BD1C0E90F5008268E0 /* Main.storyboard */,
+				1874E2C01C0E90F5008268E0 /* Assets.xcassets */,
+				1874E2C21C0E90F5008268E0 /* LaunchScreen.storyboard */,
+				1874E2C51C0E90F5008268E0 /* Info.plist */,
+				1874E2B41C0E90F5008268E0 /* Supporting Files */,
+			);
+			path = lvjing;
+			sourceTree = "<group>";
+		};
+		1874E2B41C0E90F5008268E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1874E2B51C0E90F5008268E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1874E2CD1C0E90F6008268E0 /* lvjingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1874E2CE1C0E90F6008268E0 /* lvjingTests.m */,
+				1874E2D01C0E90F6008268E0 /* Info.plist */,
+			);
+			path = lvjingTests;
+			sourceTree = "<group>";
+		};
+		1874E2D81C0E90F6008268E0 /* lvjingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1874E2D91C0E90F6008268E0 /* lvjingUITests.m */,
+				1874E2DB1C0E90F6008268E0 /* Info.plist */,
+			);
+			path = lvjingUITests;
+			sourceTree = "<group>";
+		};
+		1874E3321C101D0D008268E0 /* CICategaryColorAdjustment */ = {
+			isa = PBXGroup;
+			children = (
+				1874E2BA1C0E90F5008268E0 /* ViewController.h */,
+				1874E2BB1C0E90F5008268E0 /* ViewController.m */,
+				1874E2EA1C0E9C59008268E0 /* CIColorClampViewController.h */,
+				1874E2EB1C0E9C59008268E0 /* CIColorClampViewController.m */,
+				1874E2EC1C0E9C59008268E0 /* CIColorClampViewController.xib */,
+				1874E2F11C0EA845008268E0 /* CIColorControlsViewController.h */,
+				1874E2F21C0EA845008268E0 /* CIColorControlsViewController.m */,
+				1874E2F31C0EA845008268E0 /* CIColorControlsViewController.xib */,
+				1874E32D1C1011D7008268E0 /* CIColorMatrixViewController.h */,
+				1874E32E1C1011D7008268E0 /* CIColorMatrixViewController.m */,
+				1874E32F1C1011D7008268E0 /* CIColorMatrixViewController.xib */,
+				1874E3231C100D90008268E0 /* CIColorPolynomialViewController.h */,
+				1874E3241C100D90008268E0 /* CIColorPolynomialViewController.m */,
+				1874E3251C100D90008268E0 /* CIColorPolynomialViewController.xib */,
+				1874E2FB1C0FDC90008268E0 /* CIEXposureAdjustViewController.h */,
+				1874E2FC1C0FDC90008268E0 /* CIEXposureAdjustViewController.m */,
+				1874E2FD1C0FDC90008268E0 /* CIEXposureAdjustViewController.xib */,
+				1874E3001C0FE20C008268E0 /* CIGamaAdjustViewController.h */,
+				1874E3011C0FE20C008268E0 /* CIGamaAdjustViewController.m */,
+				1874E3021C0FE20C008268E0 /* CIGamaAdjustViewController.xib */,
+				1874E3051C0FE401008268E0 /* CIHueAdjustViewController.h */,
+				1874E3061C0FE401008268E0 /* CIHueAdjustViewController.m */,
+				1874E3071C0FE401008268E0 /* CIHueAdjustViewController.xib */,
+				1874E30A1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.h */,
+				1874E30B1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.m */,
+				1874E30C1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.xib */,
+				1874E3281C100E25008268E0 /* CISRGBToneCurveToLinentViewController.h */,
+				1874E3291C100E25008268E0 /* CISRGBToneCurveToLinentViewController.m */,
+				1874E32A1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.xib */,
+				1874E30F1C0FEDC2008268E0 /* CITemperatureAndTintViewController.h */,
+				1874E3101C0FEDC2008268E0 /* CITemperatureAndTintViewController.m */,
+				1874E3111C0FEDC2008268E0 /* CITemperatureAndTintViewController.xib */,
+				1874E3141C0FF53C008268E0 /* CIToneCurveViewController.h */,
+				1874E3151C0FF53C008268E0 /* CIToneCurveViewController.m */,
+				1874E3161C0FF53D008268E0 /* CIToneCurveViewController.xib */,
+				1874E3191C0FF615008268E0 /* CIVibranceViewController.h */,
+				1874E31A1C0FF615008268E0 /* CIVibranceViewController.m */,
+				1874E31B1C0FF615008268E0 /* CIVibranceViewController.xib */,
+				1874E31E1C0FF7DA008268E0 /* CIWhitePointAdjustViewController.h */,
+				1874E31F1C0FF7DA008268E0 /* CIWhitePointAdjustViewController.m */,
+				1874E3201C0FF7DA008268E0 /* CIWhitePointAdjustViewController.xib */,
+				1881E31B1C1FAF0F008F52D8 /* PrefixHeader.pch */,
+			);
+			name = CICategaryColorAdjustment;
+			sourceTree = "<group>";
+		};
+		1874E33B1C1028A2008268E0 /* CICategoryColorEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1874E3381C1023D9008268E0 /* ViewController2.h */,
+				1874E3391C1023D9008268E0 /* ViewController2.m */,
+				1874E33C1C102910008268E0 /* CIColorCrossPolynomialViewController.h */,
+				1874E33D1C102910008268E0 /* CIColorCrossPolynomialViewController.m */,
+				1874E33E1C102910008268E0 /* CIColorCrossPolynomialViewController.xib */,
+				1874E3411C102922008268E0 /* CIColorCubeViewController.h */,
+				1874E3421C102922008268E0 /* CIColorCubeViewController.m */,
+				1874E3431C102922008268E0 /* CIColorCubeViewController.xib */,
+				1874E3461C102933008268E0 /* CIColorCubeWithColorSpaceViewController.h */,
+				1874E3471C102933008268E0 /* CIColorCubeWithColorSpaceViewController.m */,
+				1874E3481C102933008268E0 /* CIColorCubeWithColorSpaceViewController.xib */,
+				1874E34B1C102942008268E0 /* CIColorInvertViewController.h */,
+				1874E34C1C102942008268E0 /* CIColorInvertViewController.m */,
+				1874E34D1C102942008268E0 /* CIColorInvertViewController.xib */,
+				1874E3501C102951008268E0 /* CIColorMapViewController.h */,
+				1874E3511C102951008268E0 /* CIColorMapViewController.m */,
+				1874E3521C102951008268E0 /* CIColorMapViewController.xib */,
+				1874E3551C102960008268E0 /* CIColorMonochromeViewController.h */,
+				1874E3561C102960008268E0 /* CIColorMonochromeViewController.m */,
+				1874E3571C102960008268E0 /* CIColorMonochromeViewController.xib */,
+				1874E35A1C102970008268E0 /* CIColorPosterizeViewController.h */,
+				1874E35B1C102970008268E0 /* CIColorPosterizeViewController.m */,
+				1874E35C1C102970008268E0 /* CIColorPosterizeViewController.xib */,
+				1874E35F1C102981008268E0 /* CIFalseColorViewController.h */,
+				1874E3601C102981008268E0 /* CIFalseColorViewController.m */,
+				1874E3611C102981008268E0 /* CIFalseColorViewController.xib */,
+				1874E3641C10298F008268E0 /* CIMaskToAlphaViewController.h */,
+				1874E3651C10298F008268E0 /* CIMaskToAlphaViewController.m */,
+				1874E3661C10298F008268E0 /* CIMaskToAlphaViewController.xib */,
+				1874E3691C1029A0008268E0 /* CIMaximumComponentViewController.h */,
+				1874E36A1C1029A0008268E0 /* CIMaximumComponentViewController.m */,
+				1874E36B1C1029A0008268E0 /* CIMaximumComponentViewController.xib */,
+				1874E36E1C1029B0008268E0 /* CIMinimumComponentViewController.h */,
+				1874E36F1C1029B0008268E0 /* CIMinimumComponentViewController.m */,
+				1874E3701C1029B0008268E0 /* CIMinimumComponentViewController.xib */,
+				1874E3731C1029BF008268E0 /* CIPhotoEffectChromeViewController.h */,
+				1874E3741C1029BF008268E0 /* CIPhotoEffectChromeViewController.m */,
+				1874E3751C1029BF008268E0 /* CIPhotoEffectChromeViewController.xib */,
+				1874E3781C1029D3008268E0 /* CIPhotoEffectFadeViewController.h */,
+				1874E3791C1029D3008268E0 /* CIPhotoEffectFadeViewController.m */,
+				1874E37A1C1029D3008268E0 /* CIPhotoEffectFadeViewController.xib */,
+				1874E37D1C1029E7008268E0 /* CIPhotoEffectInstantViewController.h */,
+				1874E37E1C1029E7008268E0 /* CIPhotoEffectInstantViewController.m */,
+				1874E37F1C1029E7008268E0 /* CIPhotoEffectInstantViewController.xib */,
+				1874E3821C1029F7008268E0 /* CIPhotoEffectMonoViewController.h */,
+				1874E3831C1029F7008268E0 /* CIPhotoEffectMonoViewController.m */,
+				1874E3841C1029F7008268E0 /* CIPhotoEffectMonoViewController.xib */,
+				1874E3871C102A08008268E0 /* CIPhotoEffectNoirViewController.h */,
+				1874E3881C102A08008268E0 /* CIPhotoEffectNoirViewController.m */,
+				1874E3891C102A08008268E0 /* CIPhotoEffectNoirViewController.xib */,
+				1874E38C1C102A19008268E0 /* CIPhotoEffectProcessViewController.h */,
+				1874E38D1C102A19008268E0 /* CIPhotoEffectProcessViewController.m */,
+				1874E38E1C102A19008268E0 /* CIPhotoEffectProcessViewController.xib */,
+				1874E3911C102A2A008268E0 /* CIPhotoEffectTonalViewController.h */,
+				1874E3921C102A2A008268E0 /* CIPhotoEffectTonalViewController.m */,
+				1874E3931C102A2A008268E0 /* CIPhotoEffectTonalViewController.xib */,
+				1874E3961C102A3C008268E0 /* CIPhotoEffectTransferViewController.h */,
+				1874E3971C102A3C008268E0 /* CIPhotoEffectTransferViewController.m */,
+				1874E3981C102A3C008268E0 /* CIPhotoEffectTransferViewController.xib */,
+				1874E39B1C102A4D008268E0 /* CISepiaToneViewController.h */,
+				1874E39C1C102A4D008268E0 /* CISepiaToneViewController.m */,
+				1874E39D1C102A4D008268E0 /* CISepiaToneViewController.xib */,
+				1874E3A01C102A5D008268E0 /* CIVignetteViewController.h */,
+				1874E3A11C102A5D008268E0 /* CIVignetteViewController.m */,
+				1874E3A21C102A5D008268E0 /* CIVignetteViewController.xib */,
+				1874E3A51C102A71008268E0 /* CIVignetteEffectViewController.h */,
+				1874E3A61C102A71008268E0 /* CIVignetteEffectViewController.m */,
+				1874E3A71C102A71008268E0 /* CIVignetteEffectViewController.xib */,
+			);
+			name = CICategoryColorEffect;
+			sourceTree = "<group>";
+		};
+		1877D5AC1C183CB7008AA60B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1877D5AD1C183CE4008AA60B /* WsliderView.h */,
+				1877D5AE1C183CE4008AA60B /* WsliderView.m */,
+				1877D5A91C183AF2008AA60B /* BViewController.h */,
+				1877D5AA1C183AF2008AA60B /* BViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1874E2B01C0E90F5008268E0 /* lvjing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E2DE1C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjing" */;
+			buildPhases = (
+				1874E2AD1C0E90F5008268E0 /* Sources */,
+				1874E2AE1C0E90F5008268E0 /* Frameworks */,
+				1874E2AF1C0E90F5008268E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lvjing;
+			productName = lvjing;
+			productReference = 1874E2B11C0E90F5008268E0 /* lvjing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1874E2C91C0E90F6008268E0 /* lvjingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E2E11C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjingTests" */;
+			buildPhases = (
+				1874E2C61C0E90F6008268E0 /* Sources */,
+				1874E2C71C0E90F6008268E0 /* Frameworks */,
+				1874E2C81C0E90F6008268E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1874E2CC1C0E90F6008268E0 /* PBXTargetDependency */,
+			);
+			name = lvjingTests;
+			productName = lvjingTests;
+			productReference = 1874E2CA1C0E90F6008268E0 /* lvjingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1874E2D41C0E90F6008268E0 /* lvjingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E2E41C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjingUITests" */;
+			buildPhases = (
+				1874E2D11C0E90F6008268E0 /* Sources */,
+				1874E2D21C0E90F6008268E0 /* Frameworks */,
+				1874E2D31C0E90F6008268E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1874E2D71C0E90F6008268E0 /* PBXTargetDependency */,
+			);
+			name = lvjingUITests;
+			productName = lvjingUITests;
+			productReference = 1874E2D51C0E90F6008268E0 /* lvjingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1874E2A91C0E90F5008268E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1874E2B01C0E90F5008268E0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9KXCKGX5SB;
+					};
+					1874E2C91C0E90F6008268E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1874E2B01C0E90F5008268E0;
+					};
+					1874E2D41C0E90F6008268E0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1874E2B01C0E90F5008268E0;
+					};
+				};
+			};
+			buildConfigurationList = 1874E2AC1C0E90F5008268E0 /* Build configuration list for PBXProject "lvjing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1874E2A81C0E90F5008268E0;
+			productRefGroup = 1874E2B21C0E90F5008268E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874E2B01C0E90F5008268E0 /* lvjing */,
+				1874E2C91C0E90F6008268E0 /* lvjingTests */,
+				1874E2D41C0E90F6008268E0 /* lvjingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1874E2AF1C0E90F5008268E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E3681C10298F008268E0 /* CIMaskToAlphaViewController.xib in Resources */,
+				1874E39F1C102A4D008268E0 /* CISepiaToneViewController.xib in Resources */,
+				1874E2C41C0E90F5008268E0 /* LaunchScreen.storyboard in Resources */,
+				1874E3901C102A19008268E0 /* CIPhotoEffectProcessViewController.xib in Resources */,
+				1874E3951C102A2A008268E0 /* CIPhotoEffectTonalViewController.xib in Resources */,
+				1874E3811C1029E7008268E0 /* CIPhotoEffectInstantViewController.xib in Resources */,
+				1874E2F01C0E9F6C008268E0 /* xxxx.jpg in Resources */,
+				1874E3271C100D90008268E0 /* CIColorPolynomialViewController.xib in Resources */,
+				1874E39A1C102A3C008268E0 /* CIPhotoEffectTransferViewController.xib in Resources */,
+				1874E3451C102922008268E0 /* CIColorCubeViewController.xib in Resources */,
+				1874E2F51C0EA845008268E0 /* CIColorControlsViewController.xib in Resources */,
+				1874E3861C1029F7008268E0 /* CIPhotoEffectMonoViewController.xib in Resources */,
+				1874E3771C1029BF008268E0 /* CIPhotoEffectChromeViewController.xib in Resources */,
+				1874E3631C102981008268E0 /* CIFalseColorViewController.xib in Resources */,
+				1874E37C1C1029D3008268E0 /* CIPhotoEffectFadeViewController.xib in Resources */,
+				1874E31D1C0FF615008268E0 /* CIVibranceViewController.xib in Resources */,
+				18FC4AE51C1EBB6200CB0728 /* dog.jpg in Resources */,
+				1874E38B1C102A08008268E0 /* CIPhotoEffectNoirViewController.xib in Resources */,
+				1874E3221C0FF7DA008268E0 /* CIWhitePointAdjustViewController.xib in Resources */,
+				1874E3181C0FF53D008268E0 /* CIToneCurveViewController.xib in Resources */,
+				1874E3091C0FE401008268E0 /* CIHueAdjustViewController.xib in Resources */,
+				1874E3A91C102A71008268E0 /* CIVignetteEffectViewController.xib in Resources */,
+				1874E3721C1029B0008268E0 /* CIMinimumComponentViewController.xib in Resources */,
+				1874E2FF1C0FDC90008268E0 /* CIEXposureAdjustViewController.xib in Resources */,
+				1874E3041C0FE20C008268E0 /* CIGamaAdjustViewController.xib in Resources */,
+				1874E30E1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.xib in Resources */,
+				1874E34A1C102933008268E0 /* CIColorCubeWithColorSpaceViewController.xib in Resources */,
+				1874E2C11C0E90F5008268E0 /* Assets.xcassets in Resources */,
+				1874E2EE1C0E9C59008268E0 /* CIColorClampViewController.xib in Resources */,
+				1874E34F1C102942008268E0 /* CIColorInvertViewController.xib in Resources */,
+				1874E3591C102960008268E0 /* CIColorMonochromeViewController.xib in Resources */,
+				1874E3401C102910008268E0 /* CIColorCrossPolynomialViewController.xib in Resources */,
+				1874E35E1C102970008268E0 /* CIColorPosterizeViewController.xib in Resources */,
+				1874E3131C0FEDC2008268E0 /* CITemperatureAndTintViewController.xib in Resources */,
+				1874E3A41C102A5D008268E0 /* CIVignetteViewController.xib in Resources */,
+				1874E2BF1C0E90F5008268E0 /* Main.storyboard in Resources */,
+				1874E3541C102951008268E0 /* CIColorMapViewController.xib in Resources */,
+				1874E32C1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.xib in Resources */,
+				1874E36D1C1029A0008268E0 /* CIMaximumComponentViewController.xib in Resources */,
+				1874E3311C1011D7008268E0 /* CIColorMatrixViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2C81C0E90F6008268E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2D31C0E90F6008268E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874E2AD1C0E90F5008268E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E2BC1C0E90F5008268E0 /* ViewController.m in Sources */,
+				1874E36C1C1029A0008268E0 /* CIMaximumComponentViewController.m in Sources */,
+				1874E3801C1029E7008268E0 /* CIPhotoEffectInstantViewController.m in Sources */,
+				1874E3671C10298F008268E0 /* CIMaskToAlphaViewController.m in Sources */,
+				1874E35D1C102970008268E0 /* CIColorPosterizeViewController.m in Sources */,
+				1874E2B91C0E90F5008268E0 /* AppDelegate.m in Sources */,
+				1874E32B1C100E25008268E0 /* CISRGBToneCurveToLinentViewController.m in Sources */,
+				1874E3081C0FE401008268E0 /* CIHueAdjustViewController.m in Sources */,
+				1874E38A1C102A08008268E0 /* CIPhotoEffectNoirViewController.m in Sources */,
+				1874E3261C100D90008268E0 /* CIColorPolynomialViewController.m in Sources */,
+				1874E3991C102A3C008268E0 /* CIPhotoEffectTransferViewController.m in Sources */,
+				1874E33A1C1023D9008268E0 /* ViewController2.m in Sources */,
+				1874E3171C0FF53D008268E0 /* CIToneCurveViewController.m in Sources */,
+				1874E37B1C1029D3008268E0 /* CIPhotoEffectFadeViewController.m in Sources */,
+				1874E3941C102A2A008268E0 /* CIPhotoEffectTonalViewController.m in Sources */,
+				1874E3A31C102A5D008268E0 /* CIVignetteViewController.m in Sources */,
+				1874E3621C102981008268E0 /* CIFalseColorViewController.m in Sources */,
+				1874E31C1C0FF615008268E0 /* CIVibranceViewController.m in Sources */,
+				1874E3A81C102A71008268E0 /* CIVignetteEffectViewController.m in Sources */,
+				1874E34E1C102942008268E0 /* CIColorInvertViewController.m in Sources */,
+				1874E33F1C102910008268E0 /* CIColorCrossPolynomialViewController.m in Sources */,
+				1874E3851C1029F7008268E0 /* CIPhotoEffectMonoViewController.m in Sources */,
+				1874E3361C101DAB008268E0 /* BaseViewController.m in Sources */,
+				1874E3301C1011D7008268E0 /* CIColorMatrixViewController.m in Sources */,
+				1874E38F1C102A19008268E0 /* CIPhotoEffectProcessViewController.m in Sources */,
+				1874E3441C102922008268E0 /* CIColorCubeViewController.m in Sources */,
+				1874E30D1C0FE8ED008268E0 /* CILinearToSRGBToneCurveViewController.m in Sources */,
+				1874E3031C0FE20C008268E0 /* CIGamaAdjustViewController.m in Sources */,
+				1874E2FE1C0FDC90008268E0 /* CIEXposureAdjustViewController.m in Sources */,
+				1877D5AF1C183CE4008AA60B /* WsliderView.m in Sources */,
+				1874E39E1C102A4D008268E0 /* CISepiaToneViewController.m in Sources */,
+				1874E2F41C0EA845008268E0 /* CIColorControlsViewController.m in Sources */,
+				1877D5AB1C183AF2008AA60B /* BViewController.m in Sources */,
+				1874E2ED1C0E9C59008268E0 /* CIColorClampViewController.m in Sources */,
+				1874E3761C1029BF008268E0 /* CIPhotoEffectChromeViewController.m in Sources */,
+				1874E3121C0FEDC2008268E0 /* CITemperatureAndTintViewController.m in Sources */,
+				1874E3211C0FF7DA008268E0 /* CIWhitePointAdjustViewController.m in Sources */,
+				1874E3531C102951008268E0 /* CIColorMapViewController.m in Sources */,
+				1874E2B61C0E90F5008268E0 /* main.m in Sources */,
+				1874E3491C102933008268E0 /* CIColorCubeWithColorSpaceViewController.m in Sources */,
+				1874E3711C1029B0008268E0 /* CIMinimumComponentViewController.m in Sources */,
+				1874E3581C102960008268E0 /* CIColorMonochromeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2C61C0E90F6008268E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E2CF1C0E90F6008268E0 /* lvjingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E2D11C0E90F6008268E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E2DA1C0E90F6008268E0 /* lvjingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1874E2CC1C0E90F6008268E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1874E2B01C0E90F5008268E0 /* lvjing */;
+			targetProxy = 1874E2CB1C0E90F6008268E0 /* PBXContainerItemProxy */;
+		};
+		1874E2D71C0E90F6008268E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1874E2B01C0E90F5008268E0 /* lvjing */;
+			targetProxy = 1874E2D61C0E90F6008268E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1874E2BD1C0E90F5008268E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E2BE1C0E90F5008268E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1874E2C21C0E90F5008268E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E2C31C0E90F5008268E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1874E2DC1C0E90F6008268E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1874E2DD1C0E90F6008268E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874E2DF1C0E90F6008268E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lvjing/PrefixHeader.pch";
+				INFOPLIST_FILE = lvjing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carl.lvjing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1874E2E01C0E90F6008268E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lvjing/PrefixHeader.pch";
+				INFOPLIST_FILE = lvjing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carl.lvjing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1874E2E21C0E90F6008268E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lvjingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTM.lvjingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lvjing.app/lvjing";
+			};
+			name = Debug;
+		};
+		1874E2E31C0E90F6008268E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lvjingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTM.lvjingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lvjing.app/lvjing";
+			};
+			name = Release;
+		};
+		1874E2E51C0E90F6008268E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lvjingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTM.lvjingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lvjing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1874E2E61C0E90F6008268E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lvjingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WTM.lvjingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lvjing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874E2AC1C0E90F5008268E0 /* Build configuration list for PBXProject "lvjing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E2DC1C0E90F6008268E0 /* Debug */,
+				1874E2DD1C0E90F6008268E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E2DE1C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E2DF1C0E90F6008268E0 /* Debug */,
+				1874E2E01C0E90F6008268E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E2E11C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E2E21C0E90F6008268E0 /* Debug */,
+				1874E2E31C0E90F6008268E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E2E41C0E90F6008268E0 /* Build configuration list for PBXNativeTarget "lvjingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E2E51C0E90F6008268E0 /* Debug */,
+				1874E2E61C0E90F6008268E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1874E2A91C0E90F5008268E0 /* Project object */;
+}

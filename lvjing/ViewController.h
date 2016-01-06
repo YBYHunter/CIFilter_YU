@@ -1,0 +1,21 @@
+//
+//  ViewController.h
+//  lvjing
+//
+//  Created by apple on 15/12/2.
+//  Copyright © 2015年 apple. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+//数据源列表
+@property (strong, nonatomic) NSMutableArray *dataSourceList;
+//表视图(弱引用，将表视图绑定于视图，不用再关心手动释放问题)
+@property (weak, nonatomic) UITableView *myTableView;
+
+
+
+
+@end
+
